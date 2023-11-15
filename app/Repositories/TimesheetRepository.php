@@ -127,6 +127,7 @@ class TimesheetRepository
             }
         }
 
+
         $total_overtime = array_sum($overtime);
         $total_regular_time = array_sum($regular_time);
         $total_double_time = array_sum($double_time);
